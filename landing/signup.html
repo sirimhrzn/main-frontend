@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Up</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* primary color (white) */
+    color: #333; /* text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .signup-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #f2f2f2; /* secondary color (light gray) */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1a237e; /* dark blue */
+  }
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form input[type="tel"],
+  .signup-form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .signup-form input[type="submit"] {
+    background-color: #1a237e; /* dark blue */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  .signup-form input[type="submit"]:hover {
+    background-color: #3949ab; /* darker blue on hover */
+  }
+</style>
+</head>
+<body>
+  <div class="signup-form">
+    <h2>Sign Up</h2>
+    <form action="#" method="post">
+      <input type="text" name="username" placeholder="Username" required><br>
+      <input type="email" name="email" placeholder="Email" required><br>
+      <input type="tel" name="number" placeholder="Phone Number" required><br>
+      <input type="password" name="password" placeholder="Password" required><br>
+      <input type="password" name="confirm_password" placeholder="Confirm Password" required><br>
+      <input type="submit" value="Sign Up">
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f3f4f6;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .pricing-plan {
+            width: 300px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .pricing-plan h3 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+
+        .pricing-plan .price {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+
+        .pricing-plan .price span {
+            font-size: 16px;
+            font-weight: normal;
+            color: #666666;
+            margin-left: 5px;
+        }
+
+        .pricing-plan ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 15px 0;
+        }
+
+        .pricing-plan ul li {
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        .pricing-plan ul li svg {
+            margin-right: 5px;
+        }
+
+        .pricing-plan button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #007bff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .pricing-plan button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="pricing-plan">
+    <h3>Basic plan</h3>
+    <div class="price">NPR 0 <span>/mo</span></div>
+    <ul>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Website customization</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Website SEO</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> 500 orders /month</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Only 1 store user</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Online Payment Integration</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Simple Analytics</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Priority Customer Support</li>
+    </ul>
+    <button>Start for free</button>
+</div>
+
+<div class="pricing-plan">
+    <h3>Startup</h3>
+    <div class="price">NPR 500 <span>/mo</span></div>
+    <ul>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Website customization</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Website SEO</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> 2000 orders /month</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Upto 5 store users</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Online Payment Integration</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Advanced Analytics</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Priority Customer Support</li>
+    </ul>
+    <button>Get Started</button>
+</div>
+
+<div class="pricing-plan">
+    <h3>Enterprise</h3>
+    <div class="price">NPR 1500 <span>/mo</span></div>
+    <ul>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Website customization</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Website SEO</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Unlimited orders</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Upto 10 store users</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Online Payment Integration</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Advanced Analytics</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16"><path d="M13.903 2.397a.5.5 0 0 1 0 .707l-8.31 8.308a.5.5 0 0 1-.707 0L2.397 9.31a.5.5 0 0 1 .707-.708l2.393 2.392 7.603-7.603a.5.5 0 0 1 .707 0z"/></svg> Priority Customer Support</li>
+    </ul>
+    <button>Get Started</button>
+</div>
+
+</body>
+</html>
